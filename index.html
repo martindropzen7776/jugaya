@@ -40,7 +40,7 @@ src="https://www.facebook.com/tr?id=784683126982932&ev=PageView&noscript=1"
 
 		:root {
 		
-		--color-fondo: #0e1128;--color-texto: #fff;		}
+		--color-fondo: #b4191d;--color-texto: #fff;		}
 
         /* Estilos generales */
         * {
@@ -92,11 +92,24 @@ src="https://www.facebook.com/tr?id=784683126982932&ev=PageView&noscript=1"
 			
         }
 		
-		 .contentLogo {
-			padding:0px 0px;
-		 }
-		 
+.contentLogo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px; /* Ajusta el tamaño del círculo */
+  height: 150px; /* Igual al ancho para que sea un círculo perfecto */
+  padding: 0;
+  border-radius: 50%; /* Hace que el contenedor sea redondo */
+  overflow: hidden; /* Asegura que la imagen no salga del contenedor circular */
+  background-color: #f0f0f0; /* Color de fondo opcional */
+}
 
+.contentLogo img {
+  width: 100%; /* Ajusta la imagen al contenedor */
+  height: 100%; /* Ajusta la imagen al contenedor */
+  object-fit: cover; /* Asegura que la imagen llene el círculo sin deformarse */
+}
+	    
 		 .contentLeyenda {	
 
 			font-family: 'Roboto', sans-serif;		 
@@ -454,7 +467,7 @@ ul li {
         <div class="content">
 			
 			<div class="contentLogo">	
-				 <img src='logo.png' width='120' height='120'>		
+				 <img src='logo.jpeg' width='120' height='120'>		
 				
 			</div>
 			<div class="contentTitulo">				<br><center>
