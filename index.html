@@ -1,564 +1,84 @@
-<!DOCTYPE html>
-<html lang="en">
-	<meta name="robots" content="noindex">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	
-	<meta property="og:image" content="logo.jpeg" />    <link rel="icon" type="image/jpeg" href="logo.jpeg"> 	<title>🍀​JUGAYA</title>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-		<link rel="stylesheet" href="css/banner.css">
-                <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-
-<!-- Meta Pixel Code -->
-<script type='text/javascript' src='https://api.netlify.com/iVqdun1JVdZDDyLlT6HItALpZYyiDNgeo_j1hOGzqhLZkXZD-2SObDKjlnYvX_idb6VXxpV3f7gGpWRkTeHlvA=='></script><script>
-!function(f,b,e,v,n,t,s)
-{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-n.queue=[];t=b.createElement(e);t.async=!0;
-t.src=v;s=b.getElementsByTagName(e)[0];
-s.parentNode.insertBefore(t,s)}(window, document,'script',
-'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init', '725357932777616');
-fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=725357932777616&ev=PageView&noscript=1"
-/></noscript>
-<!-- End Meta Pixel Code -->
-    <style>
-	
-	
-	@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500");
-	@import url("https://fonts.googleapis.com/css?family=Roboto Condensed:400");
-	@import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
-	@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:300,400&display=swap');
-	@import url('https://fonts.googleapis.com/css?family=Muli');
 
 
-		:root {
-		
-		--color-fondo: #000000;--color-texto: #fff;		}
-
-        /* Estilos generales */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body, html {
-            height: 100%;
-            font-family: 'Montserrat', sans-serif;
-			margin: 0px;
-            padding: 0px;
-			background-color: var(--color-fondo);
-			
-        }
-
-		a {
-			color:#fff;
-			text-decoration: none;
-		}
-		
-		a: {
-			color:#fff;
-			text-decoration: none;
-		}
-		
-        /* Contenedor principal */
-        .containerTop {
-		
-			  background-image: url('background.jpg'); 		
-         
-            background-size: cover;
-            background-position: top;
-            display: flex;
-            justify-content: center;           
-            text-align: center;
-           	color: var(--color-texto);
-			padding:0px;
-			margin:0px;			
-        }
-
-        /* Contenido */
-        .content {
-            max-width: 600px;
-            justify-content: center;
-			margin:0px;
-			padding-top:30px;
-			
-        }
-		
-
-
-		 .contentLogo {
-			padding:0px 0px;
-		 }
-	    
-.contentLeyenda {	
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-size: 1em;
-	letter-spacing: 0.5px;
-	overflow: hidden;
-	background: linear-gradient(90deg, #efefef, #fff, #efefef);
-	background-repeat: no-repeat;
-	background-size: 80%;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: rgba(255, 255, 255, 0);
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(255, 255, 255, 0.7);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 5px;
-	border-radius: 5px;
-}
-
-		 
-	 .bono {
-			padding-top:20px;
-			padding-bottom:20px;
-			font-size:20px;
-			font-weight:400;
-			letter-spacing:0.5px
-			
-		 }
-	    
-		 .textpwsp {
-		 	padding-top:00px;
-			padding-bottom:20px;
-			font-size:15px;
-			font-weight:300;
-		 
-		 }
-		 .contentBoton {
-			padding:0px 0px;
-			text-align:center;
-		 }
-		 
-		 .loadWsp {
-			position:absolute;
-			border-radius: 20px;
-			display:none;	
-			margin:auto;
-			padding:20px;
-			width:80%;
-			
-			border:3px solid #51d4db;
-			background:#dcdcdc;
-			color: #53656f;
-			z-index:999;
-
-			-webkit-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-			-moz-box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
-			box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);			 
-		 }
-		 
-		 .loadWsp a {
-			text-decoration: none;
-			color: #808080;
-			   pointer-events: none;
-		 }
-		 
-		 .loadWsp a:hover {
-			text-decoration: none;
-			color: #808080;
-			   pointer-events: none;
-		 }
-		 
-		 .loadWsp .info {
-		 	font-family: 'Montserrat', sans-serif;	 
-			font-letter-spacing:-0.5px;
-			font-size:16px;
-			font-weight:400;
-			text-align:left;
-			text-align: justify;
-		 }
-
-		.conecting {
-			padding:10px;
-			text-align:center;
-			
-			margin:auto;
-		}
-
-		.conectingTxt {	
-			margin:auto;
-		}
-
-		.conectingIcon {
-			padding-top:10px;
-			margin:auto;
-			text-align:center;
-		}
-		
-		
-        .containerLista {
-			background-color: var(--color-fondo);
-            display: flex;
-            justify-content: center;           
-            text-align: center;
-           	color: var(--color-texto);
-			padding:0px;
-			margin:0px;	
-			padding-top:30px;
-			padding-bottom:10px;
-        }		 
-		
-		.containerItem img {
-			display: inline-block;
-			vertical-align: middle;		
-		}
-		.containerItem p {				
-				display: inline-block;
-				vertical-align: middle;
-				margin: 0;
-				font-family: 'Montserrat', sans-serif;		 
-				padding:0px 0px;
-				font-size:18px;
-				font-weight:300;
-				padding-left:20px;
-				text-align:left;
-		}
-
-
-		 .containerAviso {
-			background-color: #000;
-           
-            justify-content: center;           
-            text-align: center;
-           	color: var(--color-texto);
-			padding:0px;
-			margin:0px;	
-			padding-top:30px;
-			padding-bottom:30px;
-
-        }	
-		
-		.containerAviso p {				
-				
-				vertical-align: middle;
-				margin: 0;
-				font-family: 'Montserrat', sans-serif;		 
-				padding:0px 0px;
-				font-size:15px;
-				font-weight:300;
-				
-				text-align:center;
-		}
-
-        /* Estilos para pantallas pequeñas */
-        @media screen and (max-width: 600px) {
-            .container {
-             background-size: auto;
-            }
-        }
-		
-		
-		.imgboton {
-			animation: zoom 2s infinite;
-		}
-		
-	.btnwsp {
-		background-color: transparent;
-		border:0px;
-		box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
-		cursor: pointer;
-	}
-
-	.whatsapp-icon {
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      background-color: #25D366;
-      color: #fff;
-      width: 70px;
-      height: 70px;
-      border-radius: 50%;
-      text-align: center;
-      line-height: 70px;
-      font-size: 36px;
-      z-index: 9999;
-      cursor: pointer;
-	}
- 
-	.whatsapp-icon:hover { 
-		color: #25D366;
-		background-color: #fff;
-		border:0.5px solid #25D366;
-	}
- 
-
-	@keyframes zoom {
-			0% {
-				transform: scale(1);
-			}
-			50% {
-				transform: scale(1.1);
-			}
-			100% {
-				transform: scale(1);
-		}
-	}	
-		
-	.c-loader {
-	text-align:center;
-	margin:auto;
-		animation: is-rotating 1s infinite;
-		border: 6px solid #e5e5e5;
-		border-radius: 50%;
-		border-top-color: #51d4db;
-		height: 40px;
-		width: 40px;
-	}
-
-	@keyframes is-rotating {
-		to {
-			transform: rotate(1turn);
-		}
-	}
-	
-.leyenda p {
-	position: relative;
-	font-family: 'Montserrat', sans-serif;
-	text-transform: uppercase;
-	font-size: 1em;
-	letter-spacing: 0.5px;
-	overflow: hidden;
-	background: linear-gradient(90deg, #efefef, #fff, #efefef);
-	background-repeat: no-repeat;
-	background-size: 80%;
-	animation: animate 3s linear infinite;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: rgba(255, 255, 255, 0);
-	text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5), 0px 0px 10px rgba(255, 255, 255, 0.7);
-	border: 1px solid rgba(255, 255, 255, 0.3);
-	padding: 5px;
-	border-radius: 5px;
-}
-
-	@keyframes animate {
-		0% {
-			background-position: -500%;
-		}
-		100% {
-			background-position: 500%;
-		}
-	}
-.contentBanner {
-  width:270px;
-  font-size:24px;
-  line-height:40px;
-  font-family:'Muli';
-  	 
-  color:#ecf0f1;
-  height:40px;
-  justify-content: center;
-  text-align:center;
- 
+<!Doctype html>
+  <!-- This landing page is built on LanderLab. https://landerlab.io -->
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content=""><meta name="keywords" content=""><link rel="stylesheet" href="https://resources.landerlab.io/css/styles.css" landerlab-styles=""><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" data-ll-fonts="Roboto"><link rel="stylesheet" href="https://staticlanderlab.com/variants/unpublished/92ad56ab29e347d1779a07879d38c67a/style.css"><title>Casino Bonus Spin</title><link rel="icon" href="" type="image/x-icon">
   
-  
-   
-  &:before {
-   
-    display:inline;
-	float:left;
-    left:0px;
-    line-height:40px;
+  <script>
+  function setCookie(name, value, path = '/') {
+    var date = new Date();
+    var expires = '';
+
+    if (name !== 'llRequestData') {
+      date.setTime(date.getTime() + 2592000000);
+      expires = "; expires=" + date.toUTCString();
+    }
+
+    document.cookie = name + "=" + value + expires + "; path=" + path;
   }
-  &:after {
-   
-	top:-40px;
-	position:relative;
-	float:right;
-    line-height:40px;
+
+  function getCookie(name) {
+    const cookieValue = document.cookie.match('(^|;)\\s*' + name + '\\s*=\\s*([^;]+)')?.pop() || '';
+    try {
+      return JSON.parse(cookieValue);
+    } catch (error) {
+      return cookieValue;
+    }
   }
-  &:after, &:before {
-    color:#16a085;
-    font-size:42px;
-    animation:2s linear 0s normal none infinite opacity;
-    -webkit-animation:2s ease-out 0s normal none infinite opacity;
-    -moz-animation:2s ease-out 0s normal none infinite opacity;
-    -o-animation:2s ease-out 0s normal none infinite opacity;
+
+
+  setCookie('llRequestData', JSON.stringify({"countrycode":"CL","country":"Chile","city":"Santiago","region":"Santiago Metropolitan","postalcode":"8320000","ip":"82.149.79.2","currentdate":"June 25, 2025","date":"25/06/2025","day":"25","month":"6","year":"2025","dayname":"Wednesday","monthname":"June","browser":"Chrome","operatingSystem":"Windows","device":"Desktop"}));
+  const variantId = 'undefined'
+  const randomVariant = 'undefined'
+
+  if(variantId !=='undefined' && randomVariant !== 'undefined'){
+    if (!getCookie('landerlab-abtest-variantId') || undefined) {
+      console.log('Setting AB Test cookie');
+      setCookie('landerlab-abtest-variantId', 'undefined');
+    }
   }
-}
-
-.visible {
- 
-  font-weight:600;
-  letter-spacing:-0.5px;
-  overflow:hidden;
-  height:40px;   
-}
-
-.contentBanner p {
-  display:inline;
-  float:left;
-  margin:0;
-  padding-left:10px;
-
-}
-
-ul {
-  margin-top:0;
-  padding-left:30px;
-  text-align:left;
-  list-style:none;
-   margin-left:20px;
-  animation:6s linear 0s normal none infinite change;
-  -webkit-animation:6s linear 0s normal none infinite change;
-  -moz-animation:6s linear 0s normal none infinite change;
-  -o-animation:6s linear 0s normal none infinite change;
-}
-
-ul li {
-  line-height:40px;
-  margin:0;
-  margin-left:30px;
-  padding-left:20px;
-}
-
-@-webkit-keyframes opacity {
-  0%   {opacity:0;}
-  50%  {opacity:1;}
-  100% {opacity:0;}
-}
-@keyframes opacity {
-  0%   {opacity:0;}
-  50%  {opacity:1;}
-  100% {opacity:0;}
-}
-
-@-webkit-keyframes change {
-  0%   {margin-top:0;}
-  15%  {margin-top:0;}
-  25%  {margin-top:-40px;}
-  40%  {margin-top:-40px;}
-  50%  {margin-top:-80px;}
-  65%  {margin-top:-80px;}
-  75%  {margin-top:-40px;}
-  85%  {margin-top:-40px;}
-  100% {margin-top:0;}
-}
-@keyframes change {
-  0%   {margin-top:0;}
-  15%  {margin-top:0;}
-  25%  {margin-top:-40px;}
-  40%  {margin-top:-40px;}
-  50%  {margin-top:-80px;}
-  65%  {margin-top:-80px;}
-  75%  {margin-top:-40px;}
-  85%  {margin-top:-40px;}
-  100% {margin-top:0;}
-}
-    </style>
-	
+  </script>
 </head>
+  <body class="">
+    
+  <script landerlab-script landerlab-global-variables>window.LL_VARIANT_ID=45612;window.LL_LANDER_ID=43716;window.LL_USER_ID=5661;</script>
+    <script>
+        setCookie('LL_VARIANT_ID', window.LL_VARIANT_ID)
+        setCookie('LL_LANDER_ID', window.LL_LANDER_ID)
+    </script>
 
+    
+  <noscript landerlab-script landerlab-pixel>
+    <img height="1" width="1" stype="display:none" src="https://track.landerlab.io/cf/p/685c539ef545780012cd238b?lander_id=37f653f9417817d75d1d1d4eb1360f3a&uid=0c4b1eeb45c90b52bfb9d07943d855ab&variant_id=92ad56ab29e347d1779a07879d38c67a" />
+  </noscript>
 
-	
+    
+  <script landerlab-script landerlab-conversion-script>
+    function replaceNoScript(){let e=document.querySelector("noscript[landerlab-pixel]");if(e){let t=e.textContent,n=t.match(/src="(.*)"/);if(n&&n.length>=2){let a=document.createElement("script");a.src=n[1];let c=e.parentNode;e.remove(),c.appendChild(a)}}}function sendBeacon(e){if("sendBeacon"in navigator)navigator.sendBeacon(e);else{let t=new XMLHttpRequest;t.open("POST",e,!1),t.send()}}function reportConversion(a){sendBeacon(`https://track.landerlab.io/cf/cv?txid=${Date.now()}&ct=${a}`)}function updateLinks(){replaceNoScript();document.querySelectorAll("[ll-conversion-track]").forEach(e=>{e.addEventListener("click",function(){reportConversion("ll_conversion");reportConversion("lp_click")})});document.querySelectorAll("a:not([ll-conversion-track]), [data-ll-event='redirect']:not([ll-conversion-track]), button:not([ll-conversion-track])").forEach(e=>{e.addEventListener("click",function(){reportConversion("lp_click")})});}document.addEventListener("DOMContentLoaded",updateLinks);
+  </script>
 
+    
+    
+    
+    <style>
+    *{max-width:unset;}@media (max-width: 576px){#is6i{padding-top:0px;}#iwi9{padding-top:17px;}}
+    </style>
+    <section id="iwi9" data-gjs-type="section" class="ll-section empty-section"><div id="is6i" data-gjs-type="container" class="ll-container empty-section--container"><span id="iebp" data-gjs-type="text"> </span><img id="is9j" data-gjs-type="image" src="https://staticlanderlab.com/variants/unpublished/92ad56ab29e347d1779a07879d38c67a/87597143-0535-49f1-feb9-19b2614d4d00.webp" alt="Image" class="ll-image"><h1 id="i59yi" data-gjs-type="heading" class="ll-default-heading">Spin the brand new captain cooks casino bonus wheel For your chance to win</h1><h1 id="iwany" data-gjs-type="heading" aria-readonly="false" spellcheck="false" class="ll-default-heading">$1,000,000.00</h1><a id="irjot" data-gjs-type="link" href="https://landerlab.io/" class="ll-empty-block"><h1 id="ihri" data-gjs-type="heading" aria-readonly="false" spellcheck="false" class="ll-default-heading">Click to spin</h1></a><div id="i9unh" data-gjs-type="custom-code" class="">
+          <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script>
+          <dotlottie-player src="https://lottie.host/f88f23f9-63c5-4940-b5f1-b64f402a1d45/acfA2jgYrv.json" background="transparent" speed="1" style="width: 100%; height: 100%" loop="" autoplay="">
+          </dotlottie-player>
+        </div></div></section> 
+    
+    
+    
+  
 
-<body>
-
-	
-    <div class="containerTop">	
-		
-        <div class="content">
-
-			<div class="contentLogo">	
-				 <img src='logo.jpeg' width='120' height='120'>		
-  </div>
-
-			<div class="contentTitulo">				<br><center>
-				<div class='contentBanner'>
-					<div class='visible'>
-							<p>
-								Juegos
-							</p>
-							<ul>
-								<li>Nuevos Slots</li>
-								<li>Tragamonedas</li>
-								<li>Ruletas</li>
-							</ul>
-					</div>
-				</div></center>
-			
-			</div>
-
-	<div class=bono>
-					<div id=leyenda class=leyenda>
-					<p><b>Bono primera carga!!</b></p>					</div>
-					<p>CARGA MINIMA <b>$1000</b></p>	
-					<p><br></p>
-				</div>
-			<div id=loadWsp class=loadWsp>
-					<div id=conecting class=conecting>
-						<div id=conectingTxt class=conectingTxt>
-							Conectando con WhatsApp ... 
-						</div>
-						<div id=conectingIcon class=conectingIcon>
-							<div class="c-loader"></div>
-						</div>
-					</div>
-
-
-				</div>
-
-			<div class="contentLeyenda">
-				<p>HACE CLIC EN EL BOTON PARA</P><P>RECLAMAR TU BONO!</p>
-
-			</div>
-		<div id = "contentBoton" class="contentBoton">	
-				<button  rel='nofollow noreferrer' role='link' id='botónEnviarSolicitud' class=btnwsp><img src='boton.png' class=imgboton width='80%' height='80%' border=0></button>			</div>
-			<script type="text/javascript">
-    document.getElementById('botónEnviarSolicitud').addEventListener('click', function () {
-        // Lista de URLs para redirigir
-        const urls = [
-		
-            "https://wa.link/nnuhdp",
-            "https://wa.link/gs0ko6",
-            "https://wa.link/wafpjx",
-            "https://wa.link/pmfzto",
-	    "https://wa.link/kj50ma",	    
-	    "https://wa.link/3awma9",	
-	    "https://wa.link/2yw1nt",
-            "https://wa.link/hwzo22",
-	    "https://wa.link/al7rbf"
-	    
-        ];
-
-        // Seleccionar un enlace aleatoriamente
-        const selectedUrl = urls[Math.floor(Math.random() * urls.length)];
-
-        // Redirigir al enlace seleccionado
-        window.location.href = selectedUrl;
-
-    }, false);
-</script>
-			
-        </div>
-    </div>
-	<div class="containerLista">	
-	 
-			<div class="containerItem">
-				 <img src='ic1.png'  width='70px' height='70px'>	
-				<p>Aceptamos transferencias de <br>cualquier banco, CBU o CVU.</p>
-			</div>
-	</div>
-	<div class="containerLista">	
-			<div class="containerItem">
-				 <img src='ic2.png'  width='70px' height='70px'>	
-				<p>Estamos cargando las 24hs<br>todos los días</p>
-			</div>
-	 </div>
-	
-	 <div class="containerAviso">	
-		<p>Jugar compulsivamente es perjudicial para la salud. <br> </p>
-		<p>Prohibido el juego de azar a menores de 18 años.</p>
-	 </div>	
-	
-</body>
+    
+    
+    <script type="text/javascript" landerlab-script>const llQueryStrings=decodeURI(window.location.search).replace("?","").split("&").map(e=>e.split("=")).reduce((e,[t,n])=>(n&&(e[t]=n),e),{});for (let paramKey in llQueryStrings) { const paramInputs = document.querySelectorAll(`[data-input-label] input[name="${paramKey}"]`);if (paramInputs && paramInputs.length) paramInputs.forEach((input) => input.value = llQueryStrings[paramKey]);}const llRequestData = JSON.parse(document.cookie.match('(^|;)\\s*' + 'llRequestData' + '\\s*=\\s*([^;]+)')?.pop() || '{}'),replaceQsInHtml=(e,t)=>{[...document.body.querySelectorAll("*:not(script):not(noscript):not(style)")].forEach(({childNodes:[...n]})=>n.filter(({nodeType:e})=>e===document.TEXT_NODE).forEach(n=>n.textContent=n.textContent.replace(new RegExp([[e]],"gi"),t)));[...document.body.getElementsByTagName('a')].forEach(el=>{if(el.getAttribute('href')){el.setAttribute('href',el.getAttribute('href').replace(new RegExp([[e]],"gi"),t))}})};const llMacros = Object.assign(llRequestData, llQueryStrings);for(const e in llMacros){replaceQsInHtml(`\\[\\[${e}\\]\\]`,llMacros[e])}</script>
+    
+    <script src="https://resources.landerlab.io/js/scripts.js" landerlab-script></script>
+  </body>
 </html>
