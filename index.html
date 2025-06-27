@@ -45,6 +45,6 @@
     
     <script type="text/javascript" landerlab-script>const llQueryStrings=decodeURI(window.location.search).replace("?","").split("&").map(e=>e.split("=")).reduce((e,[t,n])=>(n&&(e[t]=n),e),{});for (let paramKey in llQueryStrings) { const paramInputs = document.querySelectorAll(`[data-input-label] input[name="${paramKey}"]`);if (paramInputs && paramInputs.length) paramInputs.forEach((input) => input.value = llQueryStrings[paramKey]);}const llRequestData = JSON.parse(document.cookie.match('(^|;)\\s*' + 'llRequestData' + '\\s*=\\s*([^;]+)')?.pop() || '{}'),replaceQsInHtml=(e,t)=>{[...document.body.querySelectorAll("*:not(script):not(noscript):not(style)")].forEach(({childNodes:[...n]})=>n.filter(({nodeType:e})=>e===document.TEXT_NODE).forEach(n=>n.textContent=n.textContent.replace(new RegExp([[e]],"gi"),t)));[...document.body.getElementsByTagName('a')].forEach(el=>{if(el.getAttribute('href')){el.setAttribute('href',el.getAttribute('href').replace(new RegExp([[e]],"gi"),t))}})};const llMacros = Object.assign(llRequestData, llQueryStrings);for(const e in llMacros){replaceQsInHtml(`\\[\\[${e}\\]\\]`,llMacros[e])}</script>
     
-    <script src="scripts.js" landerlab-script></script>
+    <script src="https://resources.landerlab.io/js/scripts.js" landerlab-script></script>
   </body>
 </html>
