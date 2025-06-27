@@ -10,7 +10,7 @@ body * {
 
 .empty-section {
   padding-top: 60px;
-  padding-bottom: 0px;
+  padding-bottom: 60px;
 }
 .empty-section--container {
   display: flex;
@@ -19,7 +19,7 @@ body * {
   row-gap: 10px;
   column-gap: 10px;
   padding-top: 15px;
-  padding-bottom: 0px;
+  padding-bottom: 15px;
 }
 * {
   max-width: unset;
